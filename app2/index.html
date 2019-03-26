@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>WWA4F</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+</head>
+<body>
+  <h1>Write a Web Application for Free</h1>
+  <h2>Version 2d</h2>
+  <div id="content">This is where my web application is going to be</div>
+<script>
+// =================================================================
+var data = [
+  ["Category","Description","URI","Date"],
+  ["WWA4F","Learn HTML","https://www.w3schools.com/html/default.asp","2017-12-31 11:24:19"],
+  ["WWA4F","Learn CSS","https://www.w3schools.com/html/default.asp","2017-12-31 11:24:19"]
+];
+// =================================================================
+function displayData() {
+  var s = '<table class="table table-striped">';
+  for(var i = 0; i < data.length; i++) {
+    s += '<tr>';
+    for(var j = 0; j < data[i].length; j++) {
+      s += '<td>' + data[i][j] + '</td>';
+    }
+    s += '</tr>';
+  }
+  s += '</table>';
+  document.getElementById('content').innerHTML = s;
+}
+// =================================================================
+window.onload = displayData();
+// ==================================================================
+</script>
+</body>
+</html>

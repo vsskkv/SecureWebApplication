@@ -1,0 +1,121 @@
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "arial", sans-serif;}
+body {font-size: 24px; }
+
+textarea {
+  font-size: 24px;  
+}
+
+a:link { text-decoration: none; }
+
+.w3-main{ padding: 44px 10px 0px 50px;}
+
+.hidden { display: none; }
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#sidenavimg {
+   position: fixed;
+   top: 50%;
+   left: 0;
+}
+div.fixed {
+    position: fixed;
+    top: 50%;
+    left: 0;
+    width: 30px;
+}
+
+.w3-text-red1 { color: #400000; }
+.w3-text-green1 { color: #004000; }
+.w3-text-blue1 { color: #000040; }
+.w3-text-brightgreen { color: #00FF00; }
+
+.modalblue { color: #FFFFFF; background-color: #687599; }
+
+.banner { background-color: #000040; color: #FFFFFF; }
+
+.login {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.tdc {width: 240px; text-align: center; vertical-align: middle !important;}
+.tdl {width: 200px; text-align: left; vertical-align: middle !important;}
+.tdr {width: 200px; text-align: right; vertical-align: middle !important;}
+.tdred { background-color: #FF0000; }
+.tdgreen { background-color: #00FF00; }
+.tdblue { background-color: #0000FF; }
+.tdamber { background-color: #FFFF00; }
+.button1 { color: #000000; background-color: #00FF00; }
+
+.td30l { width: 30px; text-align: left;}
+.td50l { width: 50px; text-align: left;}
+.td10c { width: 10px; text-align: center;}
+.td30c { width: 30px; text-align: center;}
+.td50c { width: 50px; text-align: center;}
+.td30r { width: 30px; text-align: right;}
+.td50r { width: 50px; text-align: right;}
+.td60r { width: 60px; text-align: right;}
+.td70r { width: 70px; text-align: right;}
+.td100r { width: 500px !important; text-align: right;}
+
+.td2 { border-right: 1px solid black; margin:0;}
+.td6 { border-right: 1px solid black; border-bottom: 1px solid black; margin:0; }
+.td12 { border-left: : 1px solid black; border-bottom: 1px solid black; margin:0; }
+
+.width10 { width: 10%; }
+.width25 { width: 25%; }
+.width40 { width: 40%; }
+.width50 { width: 50%; }
+
+.width10c { width: 10%; text-align: center;}
+.width40r { width: 40%; text-align: right;}
+
+.p50 { text-indent: 50px; }
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+#loginForm {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-size:16px;
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
