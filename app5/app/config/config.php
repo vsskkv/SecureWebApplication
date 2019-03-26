@@ -4,8 +4,8 @@ $config['addContentLengthHeader'] = false;
 
 $baseUrl = 'http://localhost/app5/';
 $config['db']['host'] = "localhost";
-$config['db']['user'] = "wwa4fuser";
-$config['db']['pass'] = "myverystrongpassword";
+$config['db']['user'] = "ArjunUser";
+$config['db']['pass'] = "LDdMDuu3z7LZajk";
 $config['db']['dbname'] = "wwa4f";
 /*
 $baseUrl = 'https://mybaseline.org/app5/';
